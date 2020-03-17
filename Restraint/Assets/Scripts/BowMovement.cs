@@ -5,6 +5,8 @@ using UnityEngine;
 public class BowMovement : MonoBehaviour
 {
     Vector3 mousePosition;
+    Pistol pistol;
+    public GameObject arrow;
 
     void Start()
     {
@@ -17,6 +19,6 @@ public class BowMovement : MonoBehaviour
         Vector3 direction = mousePosition - transform.position;
         direction.Normalize();
 
-        transform.up = direction;
+        transform.up = direction;   
     }
 }
