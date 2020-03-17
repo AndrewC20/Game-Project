@@ -10,15 +10,10 @@ public class ZombieHealth : HealthComponent
     // May need to remove later or add something for the car
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        
         if (collision.gameObject.CompareTag("Bullet"))
         {
-            ApplyDamage(10);
-          
-        }
-        if (collision.gameObject.CompareTag("Vehicle"))
-        {
-            
-            ApplyDamage(100);
+            ApplyDamage(10);        
         }
         if (Health <= 0)
         {
