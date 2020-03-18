@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 8434269881442971639}
   - component: {fileID: -4205169005617518195}
   - component: {fileID: 285329086}
+  - component: {fileID: 3617053472018233523}
   m_Layer: 0
   m_Name: Arrow
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72,8 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: -1632259109
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6779814620886407531, guid: 0bc4ed27aef38a44bb72e80f9beb5326,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: 325bdb12e47219d4d8da2d4889112d50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -118,3 +118,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 20
+--- !u!58 &3617053472018233523
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5672437339380728656}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.6853085

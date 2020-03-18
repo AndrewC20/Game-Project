@@ -20,13 +20,29 @@ public class Bullet : MonoBehaviour
     //can be extended by later (virtual)
     public virtual void OnTriggerEnter2D(Collider2D collision)
     {
-        DestroyBullet();
+        if (collision.gameObject.CompareTag("Player"))
+        {
+
+        }
+        else if (collision.gameObject.CompareTag("Bullet")) { }
+        else
+        {
+            DestroyBullet();
+        }
     }
 
     //can be extended by later (virtual)
     public virtual void OnCollisionEnter2D(Collision2D collision)
     {
-        DestroyBullet();
+        if (collision.gameObject.CompareTag("Player"))
+        {
+
+        }
+        else if (collision.gameObject.CompareTag("Bullet")) { }
+        else
+        {
+            DestroyBullet();
+        }
     }
 
     void DestroyBullet()

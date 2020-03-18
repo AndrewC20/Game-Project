@@ -121,12 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &458728091 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8314053361924374346, guid: edda1727eab480e4885052a4e32ec19e,
-    type: 3}
-  m_PrefabInstance: {fileID: 8314053362348940753}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,27 +384,6 @@ PrefabInstance:
     - {fileID: 114882871883635918, guid: 0d45df35c35641940a40cd502af382d0, type: 3}
     - {fileID: 114641746662086322, guid: 0d45df35c35641940a40cd502af382d0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0d45df35c35641940a40cd502af382d0, type: 3}
---- !u!1 &1878476587 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1675790694948036, guid: 0d45df35c35641940a40cd502af382d0,
-    type: 3}
-  m_PrefabInstance: {fileID: 1799295184}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1878476592
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1878476587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2f7e122641549a4a805d328a1dda0ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerPosition: {fileID: 458728091}
-  zombieMovementSpeed: 100
-  trackingRange: 5
 --- !u!1001 &7891072156012079638
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -495,7 +468,7 @@ PrefabInstance:
     - target: {fileID: 8314053361924374346, guid: edda1727eab480e4885052a4e32ec19e,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8314053361924374348, guid: edda1727eab480e4885052a4e32ec19e,
         type: 3}
